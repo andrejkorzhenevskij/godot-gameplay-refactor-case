@@ -112,3 +112,12 @@ Possible next steps:
 - move tunable values into exported variables or resources;
 - add a short manual test checklist;
 - move exported builds out of the source repository and into GitHub Releases.
+
+## Original Godot project
+
+The original Godot test-task source is preserved in
+[`reference/NGtt-source.tar.gz`](reference/NGtt-source.tar.gz).
+
+The archive contains the Godot project, scripts, and scenes,
+without exported executables. The `before/` and `after/`
+directories above document the specific refactoring case.
